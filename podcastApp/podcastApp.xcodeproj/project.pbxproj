@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1603B51FDF478D00E361D0 /* DashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1603B41FDF478D00E361D0 /* DashViewController.swift */; };
+		4F1603B81FDF483D00E361D0 /* MainArtistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1603B61FDF483D00E361D0 /* MainArtistCollectionViewCell.swift */; };
+		4F1603B91FDF483D00E361D0 /* MainArtistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1603B71FDF483D00E361D0 /* MainArtistCollectionViewCell.xib */; };
+		4F1603BC1FDF490900E361D0 /* podcastInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1603BA1FDF490900E361D0 /* podcastInfoViewController.swift */; };
+		4F1603BD1FDF490900E361D0 /* podcastInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1603BB1FDF490900E361D0 /* podcastInfoViewController.xib */; };
+		4F1603C01FDF496100E361D0 /* PodcastListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1603BE1FDF496100E361D0 /* PodcastListTableViewCell.swift */; };
+		4F1603C11FDF496100E361D0 /* PodcastListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1603BF1FDF496100E361D0 /* PodcastListTableViewCell.xib */; };
 		4F8D21701F4BE79A00350006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D216F1F4BE79A00350006 /* AppDelegate.swift */; };
 		4F8D21721F4BE79A00350006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D21711F4BE79A00350006 /* ViewController.swift */; };
-		4F8D21751F4BE79A00350006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D21731F4BE79A00350006 /* Main.storyboard */; };
 		4F8D21771F4BE79A00350006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D21761F4BE79A00350006 /* Assets.xcassets */; };
 		4F8D217A1F4BE79A00350006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D21781F4BE79A00350006 /* LaunchScreen.storyboard */; };
 		4F8D21851F4BE79B00350006 /* podcastAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D21841F4BE79B00350006 /* podcastAppTests.swift */; };
@@ -34,10 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F1603B41FDF478D00E361D0 /* DashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashViewController.swift; sourceTree = "<group>"; };
+		4F1603B61FDF483D00E361D0 /* MainArtistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainArtistCollectionViewCell.swift; sourceTree = "<group>"; };
+		4F1603B71FDF483D00E361D0 /* MainArtistCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainArtistCollectionViewCell.xib; sourceTree = "<group>"; };
+		4F1603BA1FDF490900E361D0 /* podcastInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podcastInfoViewController.swift; sourceTree = "<group>"; };
+		4F1603BB1FDF490900E361D0 /* podcastInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = podcastInfoViewController.xib; sourceTree = "<group>"; };
+		4F1603BE1FDF496100E361D0 /* PodcastListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastListTableViewCell.swift; sourceTree = "<group>"; };
+		4F1603BF1FDF496100E361D0 /* PodcastListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastListTableViewCell.xib; sourceTree = "<group>"; };
 		4F8D216C1F4BE79A00350006 /* podcastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podcastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8D216F1F4BE79A00350006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F8D21711F4BE79A00350006 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F8D21741F4BE79A00350006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F8D21761F4BE79A00350006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F8D21791F4BE79A00350006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F8D217B1F4BE79A00350006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,8 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				4F8D216F1F4BE79A00350006 /* AppDelegate.swift */,
+				4F1603B41FDF478D00E361D0 /* DashViewController.swift */,
+				4F1603BA1FDF490900E361D0 /* podcastInfoViewController.swift */,
+				4F1603BE1FDF496100E361D0 /* PodcastListTableViewCell.swift */,
+				4F1603BF1FDF496100E361D0 /* PodcastListTableViewCell.xib */,
+				4F1603BB1FDF490900E361D0 /* podcastInfoViewController.xib */,
+				4F1603B61FDF483D00E361D0 /* MainArtistCollectionViewCell.swift */,
+				4F1603B71FDF483D00E361D0 /* MainArtistCollectionViewCell.xib */,
 				4F8D21711F4BE79A00350006 /* ViewController.swift */,
-				4F8D21731F4BE79A00350006 /* Main.storyboard */,
 				4F8D21761F4BE79A00350006 /* Assets.xcassets */,
 				4F8D21781F4BE79A00350006 /* LaunchScreen.storyboard */,
 				4F8D217B1F4BE79A00350006 /* Info.plist */,
@@ -235,9 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1603B91FDF483D00E361D0 /* MainArtistCollectionViewCell.xib in Resources */,
 				4F8D217A1F4BE79A00350006 /* LaunchScreen.storyboard in Resources */,
 				4F8D21771F4BE79A00350006 /* Assets.xcassets in Resources */,
-				4F8D21751F4BE79A00350006 /* Main.storyboard in Resources */,
+				4F1603BD1FDF490900E361D0 /* podcastInfoViewController.xib in Resources */,
+				4F1603C11FDF496100E361D0 /* PodcastListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1603BC1FDF490900E361D0 /* podcastInfoViewController.swift in Sources */,
+				4F1603B81FDF483D00E361D0 /* MainArtistCollectionViewCell.swift in Sources */,
+				4F1603C01FDF496100E361D0 /* PodcastListTableViewCell.swift in Sources */,
 				4F8D21721F4BE79A00350006 /* ViewController.swift in Sources */,
+				4F1603B51FDF478D00E361D0 /* DashViewController.swift in Sources */,
 				4F8D21701F4BE79A00350006 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +323,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4F8D21731F4BE79A00350006 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F8D21741F4BE79A00350006 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4F8D21781F4BE79A00350006 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -516,6 +532,7 @@
 				4F8D21961F4BE79B00350006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F8D21971F4BE79B00350006 /* Build configuration list for PBXNativeTarget "podcastAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +541,7 @@
 				4F8D21991F4BE79B00350006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F8D219A1F4BE79B00350006 /* Build configuration list for PBXNativeTarget "podcastAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +550,7 @@
 				4F8D219C1F4BE79B00350006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

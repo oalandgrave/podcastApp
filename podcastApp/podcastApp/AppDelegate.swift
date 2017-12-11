@@ -12,10 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var nav: UINavigationController?
+    var dash : DashViewController!
+
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        dash = DashViewController()
+        self.nav = UINavigationController.init(rootViewController: dash)
+        window?.rootViewController = self.nav
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
